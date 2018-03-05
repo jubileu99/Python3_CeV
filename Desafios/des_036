@@ -1,0 +1,11 @@
+salario = float(input("Informe o seu salário: "))
+valor_casa = float(input("Informe o valor da casa: "))
+anos = int(input("Informe o número de anos para pagar: "))
+
+valor_prestacao = valor_casa/anos*12
+
+if(salario < valor_prestacao):
+    print("Emprestimo negado")
+else:
+    print("Empréstimo aprovado.")
+

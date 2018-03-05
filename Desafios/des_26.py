@@ -1,0 +1,5 @@
+frase = str(input("Informe uma frase:")).strip().lower()
+vezes = frase.count('a')
+primeira = frase.find('a')
+ultima = frase.find('a',-1)
+print("A letra 'a' aparece {} vezes \nPrimeira {} \nUltima {}".format(vezes,primeira,ultima))
